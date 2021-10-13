@@ -12,22 +12,13 @@ namespace UC4RegExPhoneNum
 
             public bool Validate(string Phone)
             {
-                return Regex.IsMatch(Phone, RegexPhone);
+               if(phonenumber == null)
+            {
+                throw new UserRegistrationCustomException(UserRegistrationCustomException.ExceptionsType.INVALID_MESSAGE, "Invalid Email ID");
+            }
+            return Regex.IsMatch(phonenumber, Regex_MobileNumber);
             }
         }
-        static void Main(string[] args)
-        {
-            string Phone;
-            bool result;
-            Phone obj = new Phone();
-
-            Console.WriteLine("Enter Phone number");
-            Phone = Console.ReadLine();
-
-
-            result = obj.Validate(Phone);
-            Console.WriteLine(result);
-
-        }
+       
     }
 }
