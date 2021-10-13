@@ -12,22 +12,14 @@ namespace UC5Password
 
             public bool Validate(string password)
             {
-                return Regex.IsMatch(password, RegexPassword);
+                if(password == null)
+            {
+                throw new UserRegistrationCustomException(UserRegistrationCustomException.ExceptionsType.INVALID_MESSAGE, "Invalid Password");
+            }
+            return Regex.IsMatch(password, Regex_PSWD);
             }
         }
-        static void Main(string[] args)
-        {
-            string password;
-            bool result;
-            Password obj = new Password();
-
-            Console.WriteLine("Enter password");
-            password = Console.ReadLine();
-
-
-            result = obj.Validate(password);
-            Console.WriteLine(result);
-
-        }
+       
+        
     }
 }
