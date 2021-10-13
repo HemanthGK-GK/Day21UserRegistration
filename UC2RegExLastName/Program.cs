@@ -10,22 +10,14 @@ namespace UC2RegExLastName
             public string RegexLastName = "^[A-Z]{1}[a-z]{2,}$";
             public bool Validate(string lastname)
             {
-                return Regex.IsMatch(lastname, RegexLastName);
+                if (lastname == null)
+            {
+                throw new CustomException.UserRegistrationCustomException(UserRegistrationCustomException.ExceptionsType.INVALID_MESSAGE, "Invalid LastName");
+            }
+            return Regex.IsMatch(lastname, Regex_Lastname);
             }
 
         }
-        static void Main(string[] args)
-        {
-            string lastName;
-            bool result;
-            ChkLastName obj = new ChkLastName();
-
-            Console.WriteLine("Enter LastName");
-            lastName = Console.ReadLine();
-
-
-            result = obj.Validate(lastName);
-            Console.WriteLine(result);
-        }
+        
     }
 }
