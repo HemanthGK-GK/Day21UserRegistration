@@ -1,0 +1,14 @@
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.exe
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.deps.json
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.runtimeconfig.json
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.runtimeconfig.dev.json
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.dll
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\bin\Debug\netcoreapp3.1\UC4RegExPhoneNum.pdb
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.csproj.AssemblyReference.cache
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.AssemblyInfoInputs.cache
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.AssemblyInfo.cs
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.csproj.CoreCompileInputs.cache
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.dll
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.pdb
+C:\Users\91807\Desktop\Batch67\UC4RegExPhoneNum\obj\Debug\netcoreapp3.1\UC4RegExPhoneNum.genruntimeconfig.cache
