@@ -10,22 +10,14 @@ namespace UC3RegExEmail
             public string RegexEmail = "^[a-zA-Z0-9]{2,}[.]+([a-zA-Z0-9]+)*[@][a-zA-Z0-9]{2,}+[.][a-zA-Z]{2,3}+([.][a-zA-Z]{2}+)$";
             public bool Validate(string email)
             {
-                return Regex.IsMatch(email, RegexEmail);
+                if(email == null)
+            {
+                throw new UserRegistrationCustomException(UserRegistrationCustomException.ExceptionsType.INVALID_MESSAGE, "Invalid Email");
             }
+            return Regex.IsMatch(email, Regex_Email);
+        }
 
         }
-        static void Main(string[] args)
-        {
-            string email;
-            bool result;
-            ChkEmail obj = new ChkEmail();
-
-            Console.WriteLine("Enter email");
-            email = Console.ReadLine();
-
-
-            result = obj.Validate(email);
-            Console.WriteLine(result);
-        }
+       
     }
 }
