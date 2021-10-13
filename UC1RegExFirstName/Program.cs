@@ -10,22 +10,14 @@ namespace UC1RegExFirstName
             public string RegexFirstName = "^[A-Z]{1}[a-z]{2,}$";
             public bool Validate(string firstname)
             {
-                return Regex.IsMatch(firstname, RegexFirstName);
+                 if (firstName == null)
+            {
+                throw new UserRegistrationCustomException(UserRegistrationCustomException.ExceptionsType.INVALID_MESSAGE, "Invalid FirstName");
+            }
+            return Regex.IsMatch(firstName, Regex_Firstname);
             }
 
         }
-        static void Main(string[] args)
-        {
-            string FirstName;
-            bool result;
-            ChkFirstName obj = new ChkFirstName();
-
-            Console.WriteLine("Enter FirstName");
-            FirstName = Console.ReadLine();
-
-
-            result = obj.Validate(FirstName);
-            Console.WriteLine(result);
-        }
+        
     }
 }
