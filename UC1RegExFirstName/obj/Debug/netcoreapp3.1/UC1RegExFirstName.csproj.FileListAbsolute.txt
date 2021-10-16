@@ -1,0 +1,14 @@
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.exe
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.deps.json
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.runtimeconfig.json
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.runtimeconfig.dev.json
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.dll
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\bin\Debug\netcoreapp3.1\UC1RegExFirstName.pdb
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.csproj.AssemblyReference.cache
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.AssemblyInfoInputs.cache
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.AssemblyInfo.cs
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.csproj.CoreCompileInputs.cache
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.dll
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.pdb
+C:\Users\91807\Desktop\Batch67\UC1RegExFirstName\obj\Debug\netcoreapp3.1\UC1RegExFirstName.genruntimeconfig.cache
